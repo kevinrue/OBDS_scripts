@@ -31,7 +31,7 @@
 ## Specify the maximum amount of time that your job will need to run. Asking for
 ## the correct amount of time can help to get your job to start quicker. Time is
 ## specified as HOURS:MINUTES:SECONDS. This example is one week.
-#SBATCH --time=1:00:00
+#SBATCH --time=00:10:00
 
 ## Capture the terminal output and save any error messages. This is very useful
 ## if you have problems and need to ask for help.
