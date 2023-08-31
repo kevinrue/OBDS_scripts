@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 ##########################################################################
 ## A script template for submitting batch jobs. To submit a batch job, 
 ## please type
