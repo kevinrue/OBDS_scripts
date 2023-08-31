@@ -46,7 +46,7 @@ cran_packages <- c(
   "R.utils",
   "sctransform",
   "Seurat",
-  "sessioinfo",
+  "sessioninfo",
   "tidyverse",
   "umap",
   "WGCNA"
