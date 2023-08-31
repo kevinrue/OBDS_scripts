@@ -12,7 +12,7 @@ sink(file = file_err, type = "message")
 # Start ----
 
 start_time <- Sys.time()
-dir.create(target_lib)
+dir.create(target_lib, showWarnings = FALSE)
 .libPaths(target_lib)
 
 # Please list packages alphabetically within each command, for each of search by other contributors.
@@ -162,10 +162,11 @@ end_time <- Sys.time()
 
 message(sprintf("Script completed in %.2f seconds", as.numeric(end_time - start_time)))
 
-rm(list=ls())
 
 sink(file = NULL, type = "output")
 sink(file = NULL, type = "message")
 
 close(file_out)
 close(file_err)
+
+rm(list=ls())
